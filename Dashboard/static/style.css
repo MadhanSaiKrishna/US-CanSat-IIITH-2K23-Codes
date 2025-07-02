@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.split_left {
+    color: rgb(255, 255, 255);
+    left: 0;
+    width: 25vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    overflow-x: hidden;
+}
+
+
+.split_right {
+    /* float: right; */
+    /* height: 100vh; */
+
+    right: 0;
+    position: fixed;
+    overflow-y: scroll;
+    height: 100vh;
+    
+    width: 75vw;
+    /* background-color: rgb(246, 247, 252); */
+    background-color: rgb(48, 55, 47);
+}
+
+.logo {
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.table {
+    margin-left: 5%;
+    width: 90%;
+    height: 80vh;
+    border: 0.1px solid rgb(193, 193, 193);
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.graph-wrapper {
+    /* background-color: thistle; */
+    background-color: transparent;
+    min-height: 100vh;
+    width: 65%;
+    float: left;
+    padding: 2%;
+    /* margin-left: 3vw; */
+    /* margin-right: 3vw; */
+}
+
+.video-wrapper {
+    /* position: fixed;
+    right: 0;
+    top: 0; */
+    float: right;
+    /* background-color: orange; */
+    background-color: transparent;
+    min-height: 100vh;
+    width: 35%;
+    padding: 2%;
+}
+
+.graph-tile {
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+    height: 30vh;
+    width: 49%;
+    border: 1px solid black;
+    margin-bottom: 2%;
+}
+
+
+
+.video-tile {
+    border-radius: 2%;
+    background-color: rgb(255, 255, 255);
+    height: 48vh;
+    margin-bottom: 2vh;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.cmd-line {
+    float: left;
+    /* background-color: rgb(113, 67, 67); */
+    background-color: transparent;
+    height: 7.5vh;
+    width: 65%;
+    /* border: 1px solid black; */
+    padding-left: 2%;
+}
+
+.buttons-wrapper {
+    padding: 1%;
+    float: right;
+    /* background-color: rgb(126, 52, 126); */
+    background-color: transparent;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    /* margin-bottom: 2%; */
+}
+
+.buttons-wrapper form{
+    margin: 1%;
+    float: left;
+    height: 65%;
+    width: 13%;
+}
+
+.cmd-button {
+    border-radius: 10%;
+    background-color: rgb(234, 234, 234);
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
